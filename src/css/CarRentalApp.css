@@ -1,0 +1,136 @@
+/* CarRentalApp.css */
+.header {
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .car-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .car-item {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .footer {
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust the gap between inputs and button as needed */
+    margin: 20px 0; /* Add some margin for spacing */
+  }
+  
+  .search-container input[type="text"], 
+  .search-container input[type="datetime-local"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-container button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-container button:hover {
+    background-color: #0056b3;
+  }
+  .car-rental-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    /* Styles for header */
+  }
+  
+  .main-section {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .tagline h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .car-info h2 {
+    font-size: 2em;
+    margin-bottom: 0.25em;
+  }
+  
+  .car-info p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  .car-info button {
+    background-color: #ffa500;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .booking-form {
+    background-color: #ffa500;
+    padding: 20px;
+  }
+  
+  .booking-form form {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .booking-form input {
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  .booking-form .date-input {
+    /* Styles specifically for date inputs */
+  }
+  
+  .booking-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* CarRentalForm.css */
+
+.car-rental-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* This makes sure the container fills at least the whole viewport */
+}
+
+.main-section {
+  flex: 1; /* This allows the section to grow and push the footer down */
+  /* Other styles... */
+}
+
+/* Add this to ensure the footer sticks to the bottom */
+.footer {
+  margin-top: auto; /* This will automatically take up any available space */
+  /* Other styles... */
+}

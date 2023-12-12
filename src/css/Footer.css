@@ -1,0 +1,31 @@
+/* Footer.css */
+
+.footer {
+    /* Add any additional styling for the footer */
+    padding: 20px;
+    background: #333; /* example background color */
+    color: white; /* example text color */
+  }
+  
+  .footer nav ul {
+    list-style-type: none; /* Removes default list styling */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    display: flex; /* Aligns the list items side by side */
+    justify-content: center; /* Centers the list items horizontally */
+  }
+  
+  .footer nav ul li {
+    margin: 0 10px; /* Adds some space between the list items */
+  }
+  
+  .footer nav ul li a {
+    color: white; /* example link color */
+    text-decoration: none; /* Removes the underline from links */
+  }
+  
+  .footer p {
+    text-align: center; /* Centers the footer text */
+    margin-top: 20px; /* Adds space above the footer text */
+  }
+  
